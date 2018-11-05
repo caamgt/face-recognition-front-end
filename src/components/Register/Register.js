@@ -27,7 +27,7 @@ class Register extends React.Component {
 	onSubmitSignIn = () => {
 		// Enviuamos el correo y password al servidor.
 		// Lo realizaremos como POST
-		fetch('http://localhost:3001/register', {
+		fetch('https://radiant-plains-29554.herokuapp.com/register', {
 			method: 'POST',
 			headers: {'content-type': 'application/json'},
 			// Lo enviamos como json.
